@@ -1,0 +1,106 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');?>
+
+<header class="main-header">
+	<div class="container">
+		<div class="main-header-inner">
+			<div class="main-logo-container">
+				<a href="#">
+					<img src="<?php echo base_url() ?>assets/images/logo.png" class="logo-lg">
+					<img src="<?php echo base_url() ?>assets/images/cc-logo-mini.png" class="logo-sm">
+				</a>
+			</div>
+			<div class="main-nav-container">
+				<ul class="main-nav">
+					<li><a href="#main-login" class="btn btn-outline-bk popup-with-zoom-anim"> <img src="<?php echo base_url() ?>assets/images/login-icon.png"> <span>Login</span></a></li>
+					<li><a href="#main-register" class="btn btn-outline-bk popup-with-zoom-anim"> <img src="<?php echo base_url() ?>assets/images/register-icon.png"> <span>Register</span></a></li>
+					<li class="hidden-xs"><a href="register1.php" class="btn btn-red"> <span>Join Crew</span></a></li>
+					<li class="dropdown">
+						<a href="#"  class="link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?php echo base_url() ?>assets/images/menu-icon.png"></a>
+						<ul class="dropdown-menu pull-right">
+							<li><a href="#">How it works</a></li>
+							<li><a href="#">How to Use</a></li>
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Contact us</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div id="main-login" class="zoom-anim-dialog mfp-hide">
+	<div class="main-login-container">
+		<h3 class="text-center">Login Now</h3>
+		<form id="MainLogin" class="white-form">
+			<div class="form-group">
+				<label>Your Email</label>
+				<input type="text" id="ml_email" name="ml_email" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Password</label>
+				<input type="password" id="ml_pass" name="ml_pass" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Forgot your Password? <a href="#" class="link">Click Here</a></label>
+			</div>				
+			<div class="form-group">
+				<button class="btn btn-block btn-red btn-lg">Login Now</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div id="main-register" class="zoom-anim-dialog mfp-hide">
+	<div class="main-register-container">
+		<div class="main-customer-register">
+			<h3 class="text-center">Customer Registration</h3>
+			<form id="MainRegister" class="gray-form">
+				<div class="form-group">
+					<label>Your Name</label>
+					<input type="text" id="mr_name" name="mr_name" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>Your Email</label>
+					<input type="text" id="mr_email" name="mr_email" class="form-control">	
+				</div>
+				<div class="form-group">
+					<label>Mobile Number</label>
+					<div class="input-group">
+					  <span class="input-group-addon">+91</span>
+					  <input type="text" id="mr_mobile" name="mr_mobile" class="form-control">
+					</div>	
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+				  <input type="password" id="mr_password" name="mr_password" class="form-control">
+				</div>
+				<div class="form-group">
+					<div class="checkbox">
+				    <input type="checkbox" id="mr_accept" id="mr_accept" name="">
+				    <label for="checkbox1">
+				        I Accept the <a href="#">Terms &amp; Conditions</a> of Civilcrew
+				    </label>
+				  </div>
+				</div>
+				<div class="form-group">
+					<button class="btn btn-block btn-lg btn-red">Register Now</button>
+				</div>
+			</form>
+		</div>
+		<div class="main-crew-register">
+			<h3 class="">Join with us</h3>
+			<ul class="pop-list">
+				<li>Architects</li>
+				<li>Civil Engineers</li>
+				<li>Structural Engineers</li>
+				<li>MEP Comsultants</li>
+				<li>Interior Designers</li>
+				<li>Modular Kitchenists</li>
+			</ul>
+			<p>Registration available for Companies and Freelancers</p>
+			<a href="register1.php" class="btn btn-red">Join The Crew</a>
+		</div>
+	</div>
+</div>

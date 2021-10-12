@@ -1,0 +1,47 @@
+.success-page {
+display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(10%);
+        padding: 0px 80px;
+}
+.success-page img {
+display: block;
+    margin: 0 auto;
+    width: auto;
+        padding-bottom: 30px;
+}
+.success {
+    color: #153376;
+    margin-top: 25px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.sucessfully p {
+    font-size: 50px;
+    font-weight: 600;
+}
+.sucessfully img {
+    width: 55px;
+}
+.fail {
+	color: #d75a4a;
+	margin-top: 25px;
+	font-size: 60px;
+    font-weight: bold;
+}
+.failed p {
+    font-size: 50px;
+    font-weight: 600;
+}
+.failed img {
+    width: 55px;
+}
+
+@media (max-width: 1000px) {
+ .success-page  {
+transform: perspective(1px) translateY(30%);
+  }
+}

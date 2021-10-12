@@ -1,0 +1,152 @@
+[15-Aug-2019 13:29:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$bookingview' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/views/ccavenueform_view.php on line 5
+[15-Aug-2019 13:29:57 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$bookingview' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/views/ccavenueform_view.php on line 5
+[15-Aug-2019 13:38:40 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mcrypt_module_open() in /home/afionqsnujjk/public_html/application/views/crypto.php:9
+Stack trace:
+#0 /home/afionqsnujjk/public_html/application/views/request_view.php(34): encrypt('tid=15658563792...', NULL)
+#1 /home/afionqsnujjk/public_html/system/core/Loader.php(833): include('/home/afionqsnu...')
+#2 /home/afionqsnujjk/public_html/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#3 /home/afionqsnujjk/public_html/application/controllers/football.php(2990): CI_Loader->view('request_view')
+#4 /home/afionqsnujjk/public_html/system/core/CodeIgniter.php(359): football->sendRequest()
+#5 /home/afionqsnujjk/public_html/index.php(202): require_once('/home/afionqsnu...')
+#6 {main}
+  thrown in /home/afionqsnujjk/public_html/application/views/crypto.php on line 9
+[15-Aug-2019 13:38:44 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mcrypt_module_open() in /home/afionqsnujjk/public_html/application/views/crypto.php:9
+Stack trace:
+#0 /home/afionqsnujjk/public_html/application/views/request_view.php(34): encrypt('', NULL)
+#1 /home/afionqsnujjk/public_html/system/core/Loader.php(833): include('/home/afionqsnu...')
+#2 /home/afionqsnujjk/public_html/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#3 /home/afionqsnujjk/public_html/application/controllers/football.php(2990): CI_Loader->view('request_view')
+#4 /home/afionqsnujjk/public_html/system/core/CodeIgniter.php(359): football->sendRequest()
+#5 /home/afionqsnujjk/public_html/index.php(202): require_once('/home/afionqsnu...')
+#6 {main}
+  thrown in /home/afionqsnujjk/public_html/application/views/crypto.php on line 9
+[15-Aug-2019 13:39:00 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mcrypt_module_open() in /home/afionqsnujjk/public_html/application/views/crypto.php:9
+Stack trace:
+#0 /home/afionqsnujjk/public_html/application/views/request_view.php(34): encrypt('tid=15658565369...', NULL)
+#1 /home/afionqsnujjk/public_html/system/core/Loader.php(833): include('/home/afionqsnu...')
+#2 /home/afionqsnujjk/public_html/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#3 /home/afionqsnujjk/public_html/application/controllers/football.php(2990): CI_Loader->view('request_view')
+#4 /home/afionqsnujjk/public_html/system/core/CodeIgniter.php(359): football->sendRequest()
+#5 /home/afionqsnujjk/public_html/index.php(202): require_once('/home/afionqsnu...')
+#6 {main}
+  thrown in /home/afionqsnujjk/public_html/application/views/crypto.php on line 9
+[15-Aug-2019 13:39:25 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mcrypt_module_open() in /home/afionqsnujjk/public_html/application/views/crypto.php:9
+Stack trace:
+#0 /home/afionqsnujjk/public_html/application/views/request_view.php(34): encrypt('tid=15658565610...', NULL)
+#1 /home/afionqsnujjk/public_html/system/core/Loader.php(833): include('/home/afionqsnu...')
+#2 /home/afionqsnujjk/public_html/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#3 /home/afionqsnujjk/public_html/application/controllers/football.php(2990): CI_Loader->view('request_view')
+#4 /home/afionqsnujjk/public_html/system/core/CodeIgniter.php(359): football->sendRequest()
+#5 /home/afionqsnujjk/public_html/index.php(202): require_once('/home/afionqsnu...')
+#6 {main}
+  thrown in /home/afionqsnujjk/public_html/application/views/crypto.php on line 9
+[15-Aug-2019 13:39:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mcrypt_module_open() in /home/afionqsnujjk/public_html/application/views/crypto.php:9
+Stack trace:
+#0 /home/afionqsnujjk/public_html/application/views/request_view.php(34): encrypt('tid=15658565680...', NULL)
+#1 /home/afionqsnujjk/public_html/system/core/Loader.php(833): include('/home/afionqsnu...')
+#2 /home/afionqsnujjk/public_html/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#3 /home/afionqsnujjk/public_html/application/controllers/football.php(2990): CI_Loader->view('request_view')
+#4 /home/afionqsnujjk/public_html/system/core/CodeIgniter.php(359): football->sendRequest()
+#5 /home/afionqsnujjk/public_html/index.php(202): require_once('/home/afionqsnu...')
+#6 {main}
+  thrown in /home/afionqsnujjk/public_html/application/views/crypto.php on line 9
+[15-Aug-2019 08:29:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_logo_settings() on null in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php:1644
+Stack trace:
+#0 /home/afionqsnujjk/public_html/system/core/CodeIgniter.php(359): Web_services->insert_booking_data()
+#1 /home/afionqsnujjk/public_html/index.php(202): require_once('/home/afionqsnu...')
+#2 {main}
+  thrown in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1644
+[15-Aug-2019 14:33:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ',' in /home/afionqsnujjk/public_html/application/views/request_view.php on line 27
+[17-Aug-2019 16:26:38 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';' in /home/afionqsnujjk/public_html/application/views/payment_view.php on line 37
+[17-Aug-2019 16:26:44 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';' in /home/afionqsnujjk/public_html/application/views/payment_view.php on line 37
+[19-Aug-2019 12:12:58 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/afionqsnujjk/public_html/application/views/response_view.php on line 133
+[19-Aug-2019 12:13:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/afionqsnujjk/public_html/application/views/response_view.php on line 133
+[19-Aug-2019 12:21:35 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$baseurl' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/views/response_view.php on line 136
+[19-Aug-2019 12:21:45 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$baseurl' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/views/response_view.php on line 136
+[19-Aug-2019 12:30:19 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$baseurl' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/views/response_view.php on line 136
+[19-Aug-2019 12:30:23 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$baseurl' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/views/response_view.php on line 136
+[19-Aug-2019 12:31:03 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$baseurl' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/views/response_view.php on line 136
+[19-Aug-2019 12:37:01 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '' style="height: 315px !import' (T_CONSTANT_ENCAPSED_STRING) in /home/afionqsnujjk/public_html/application/views/response_view.php on line 137
+[28-Aug-2019 15:40:14 Asia/Kolkata] PHP Fatal error:  Call to undefined method football_model::booking_payment_delete() in /home/afionqsnujjk/public_html/application/controllers/football.php on line 1677
+[28-Aug-2019 16:22:17 Asia/Kolkata] PHP Fatal error:  Call to undefined method football_model::booking_payment_delete() in /home/afionqsnujjk/public_html/application/controllers/football.php on line 1677
+[28-Aug-2019 16:22:33 Asia/Kolkata] PHP Fatal error:  Call to undefined method football_model::booking_payment_delete() in /home/afionqsnujjk/public_html/application/controllers/football.php on line 1677
+[28-Aug-2019 16:35:26 Asia/Kolkata] PHP Fatal error:  Call to undefined method football_model::booking_payment_delete() in /home/afionqsnujjk/public_html/application/controllers/football.php on line 1677
+[28-Aug-2019 16:36:00 Asia/Kolkata] PHP Fatal error:  Call to undefined method football_model::booking_payment_delete() in /home/afionqsnujjk/public_html/application/controllers/football.php on line 1677
+[04-Sep-2019 09:18:23 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 2636
+[04-Sep-2019 16:59:08 Asia/Kolkata] PHP Fatal error:  Call to undefined function impload() in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 2665
+[09-Sep-2019 06:01:38 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::row_result() in /home/afionqsnujjk/public_html/application/models/api/user_model.php on line 70
+[09-Sep-2019 06:30:21 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/models/api/user_model.php on line 61
+[09-Sep-2019 06:30:52 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/models/api/user_model.php on line 61
+[09-Sep-2019 06:31:21 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/models/api/user_model.php on line 60
+[09-Sep-2019 06:31:47 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/models/api/user_model.php on line 60
+[09-Sep-2019 06:32:17 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/models/api/user_model.php on line 60
+[09-Sep-2019 06:32:31 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/models/api/user_model.php on line 60
+[09-Sep-2019 06:32:47 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/afionqsnujjk/public_html/application/models/api/user_model.php on line 60
+[11-Sep-2019 08:42:46 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 08:42:47 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 08:42:47 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 08:42:47 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 08:43:11 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 08:43:11 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 08:43:11 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 08:43:28 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 08:43:28 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 08:43:28 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 08:43:42 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1527
+[11-Sep-2019 09:16:14 UTC] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1341
+[11-Sep-2019 09:16:34 UTC] PHP Parse error:  syntax error, unexpected ''+'' (T_CONSTANT_ENCAPSED_STRING) in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 1340
+[28-Nov-2019 00:12:23 Asia/Kolkata] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::or_byder() in /home/afionqsnujjk/public_html/application/models/api/web_services_model.php on line 209
+[28-Nov-2019 00:12:59 Asia/Kolkata] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::or_byder() in /home/afionqsnujjk/public_html/application/models/api/web_services_model.php on line 209
+[27-Nov-2019 20:21:21 UTC] PHP Fatal error:  Cannot redeclare Web_services::tournament_list() in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 94
+[27-Nov-2019 20:22:09 UTC] PHP Fatal error:  Cannot redeclare Web_services::tournament_list() in /home/afionqsnujjk/public_html/application/controllers/api/Web_services.php on line 94
+[28-Nov-2019 16:39:18 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/afionqsnujjk/public_html/application/controllers/football.php on line 573
+[13-Jan-2020 23:34:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mcrypt_module_open() in /home/z1syj1vt8nyr/public_html/application/views/crypto.php:9
+Stack trace:
+#0 /home/z1syj1vt8nyr/public_html/application/views/request_view.php(27): encrypt('tid=15789385292...', '778EF617D020B07...')
+#1 /home/z1syj1vt8nyr/public_html/system/core/Loader.php(833): include('/home/z1syj1vt8...')
+#2 /home/z1syj1vt8nyr/public_html/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#3 /home/z1syj1vt8nyr/public_html/application/controllers/football.php(3304): CI_Loader->view('request_view')
+#4 /home/z1syj1vt8nyr/public_html/system/core/CodeIgniter.php(359): football->sendRequest()
+#5 /home/z1syj1vt8nyr/public_html/index.php(202): require_once('/home/z1syj1vt8...')
+#6 {main}
+  thrown in /home/z1syj1vt8nyr/public_html/application/views/crypto.php on line 9
+[11-Feb-2020 17:22:16 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/z1syj1vt8nyr/public_html/application/controllers/football.php on line 3337
+[11-Feb-2020 17:22:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/z1syj1vt8nyr/public_html/application/controllers/football.php on line 3337
+[11-Feb-2020 22:53:25 Asia/Kolkata] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::last_quer() in /home/z1syj1vt8nyr/public_html/application/models/football_model.php on line 2203
+[11-Mar-2020 07:11:56 UTC] PHP Parse error:  syntax error, unexpected 'ز' (T_STRING) in /home/z1syj1vt8nyr/public_html/application/controllers/football.php on line 1872
+[11-Mar-2020 07:11:59 UTC] PHP Parse error:  syntax error, unexpected 'ز' (T_STRING) in /home/z1syj1vt8nyr/public_html/application/controllers/football.php on line 1872
+[11-Mar-2020 07:12:00 UTC] PHP Parse error:  syntax error, unexpected 'ز' (T_STRING) in /home/z1syj1vt8nyr/public_html/application/controllers/football.php on line 1872
+[11-Mar-2020 07:12:04 UTC] PHP Parse error:  syntax error, unexpected 'ز' (T_STRING) in /home/z1syj1vt8nyr/public_html/application/controllers/football.php on line 1872
+[11-Mar-2020 07:12:27 UTC] PHP Parse error:  syntax error, unexpected 'ز' (T_STRING) in /home/z1syj1vt8nyr/public_html/application/controllers/football.php on line 1872
+[11-Mar-2020 12:50:38 Asia/Kolkata] PHP Fatal error:  Call to undefined method football_model::view_payment() in /home/z1syj1vt8nyr/public_html/application/controllers/football.php on line 2063
+[11-Mar-2020 12:51:03 Asia/Kolkata] PHP Fatal error:  Call to undefined method football_model::view_payment() in /home/z1syj1vt8nyr/public_html/application/controllers/football.php on line 2063
+[11-Mar-2020 08:19:32 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/z1syj1vt8nyr/public_html/application/controllers/api/Web_services.php on line 1943
+[11-Mar-2020 08:22:08 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/z1syj1vt8nyr/public_html/application/controllers/api/Web_services.php on line 1943
+[11-Mar-2020 08:22:08 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/z1syj1vt8nyr/public_html/application/controllers/api/Web_services.php on line 1943
+[11-Mar-2020 08:22:08 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/z1syj1vt8nyr/public_html/application/controllers/api/Web_services.php on line 1943
+[11-Mar-2020 08:22:09 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/z1syj1vt8nyr/public_html/application/controllers/api/Web_services.php on line 1943
+[19-Mar-2020 07:52:22 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/views/booking_hours_slots.php on line 105
+[19-Mar-2020 07:52:45 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/views/booking_hours_slots.php on line 105
+[19-Mar-2020 07:53:09 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/views/booking_hours_slots.php on line 105
+[19-Mar-2020 07:54:09 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/views/booking_hours_slots.php on line 105
+[20-Mar-2020 23:33:24 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/views/booking_hours_slots.php on line 105
+[20-Mar-2020 23:33:40 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/views/booking_hours_slots.php on line 105
+[20-Mar-2020 18:36:29 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:36:29 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:36:29 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:36:30 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:36:46 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:36:47 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:36:47 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:38:02 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:38:03 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:38:03 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:40:09 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[20-Mar-2020 18:40:14 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 2166
+[21-Mar-2020 00:12:49 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/views/booking_hours_slots.php on line 105
+[21-Mar-2020 00:35:39 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?>' in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/views/booking_view.php on line 114
+[25-Mar-2020 20:58:17 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8388616 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 1410
+[25-Mar-2020 20:58:46 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8388616 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 1410
+[27-Mar-2020 18:56:21 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8388616 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 1461
+[27-Mar-2020 18:56:44 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8388616 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 1461
+[27-Mar-2020 18:56:52 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8388616 bytes) in /home/hiaju8oak7dd/public_html/streetleague.reliantrade.com/application/controllers/api/Web_services.php on line 1461
